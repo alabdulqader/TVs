@@ -1,0 +1,6 @@
+{
+  "name": "Smart Display Lite",
+  "description": "Android TV digital signage system for institutional displays, multi-screen management, weather, news ticker, stocks, and live remote control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

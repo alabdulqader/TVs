@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Monitor Outer Frame / TV Screen (centered in 66dp safe zone) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M24,28 h60 c2.2,0 4,1.8 4,4 v38 c0,2.2 -1.8,4 -4,4 h-60 c-2.2,0 -4,-1.8 -4,-4 v-38 c0,-2.2 1.8,-4 4,-4 z" />
+    <!-- TV Display Inner Area (Screen Glow) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M27,31 h54 c1.1,0 2,0.9 2,2 v32 c0,1.1 -0.9,2 -2,2 h-54 c-1.1,0 -2,-0.9 -2,-2 v-32 c0,-1.1 0.9,-2 2,-2 z" />
+    <!-- TV Stand Neck & Base -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M51,74 h6 v6 h-6 z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M40,80 h28 c1.1,0 2,0.9 2,2 v1 c0,0.5 -0.5,1 -1,1 h-28 c-0.5,0 -1,-0.5 -1,-1 v-1 c0,-1.1 0.9,-2 1,-2 z" />
+    <!-- Left Widget Panel (Charts / KPI) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M31,36 h22 v14 h-22 z" />
+    <!-- Bar charts inside left widget -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M34,45 h2 v3 h-2 z M38,42 h2 v6 h-2 z M42,39 h2 v9 h-2 z M46,41 h2 v7 h-2 z M50,38 h2 v10 h-2 z" />
+    <!-- Right Widget Panel (Weather Sun & Ring) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M66,43 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M66,35 h1 v2 h-1 z M66,49 h1 v2 h-1 z M58,43 h2 v1 h-2 z M72,43 h2 v1 h-2 z" />
+    <!-- News Ticker Banner at Bottom of Screen -->
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M31,54 h46 v7 h-46 z" />
+    <!-- Ticker Text representation lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,57 h14 v1 h-14 z M49,57 h10 v1 h-10 z M61,57 h14 v1 h-14 z" />
+    <!-- Broadcast Wireless Signal Arc above TV -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M46,24 a11,11 0 0,1 16,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0EA5E9"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,20 a16,16 0 0,1 24,0" />
+</vector>
